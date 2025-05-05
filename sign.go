@@ -12,10 +12,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/MaSchmidt1999/pdfsign
-/sign"
-	"github.com/MaSchmidt1999/pdfsign
-/verify"
+	"github.com/MaSchmidt1999/pdfsign/sign"
+	"github.com/MaSchmidt1999/pdfsign/verify"
 )
 
 var (

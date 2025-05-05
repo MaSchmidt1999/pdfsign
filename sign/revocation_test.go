@@ -9,8 +9,7 @@ import (
 	"encoding/pem"
 	"testing"
 
-	"github.com/MaSchmidt1999/pdfsign
-/revocation"
+	"github.com/MaSchmidt1999/pdfsign/revocation"
 )
 
 const certPem = `-----BEGIN CERTIFICATE-----
