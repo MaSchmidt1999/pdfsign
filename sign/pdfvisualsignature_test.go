@@ -53,7 +53,7 @@ func TestVisualSignature(t *testing.T) {
 		SignData:  sign_data,
 	}
 
-	expected_visual_signature := "<<\n  /Type /Annot\n  /Subtype /Widget\n  /Rect [0 0 0 0]\n /TU (Digital signature field (non-interactive) /StructParent 999999\n  /P 4 0 R\n  /F 132\n  /FT /Sig\n  /T (Signature 1)\n  /V 13 0 R\n>>\n"
+	expected_visual_signature := "<<\n  /Type /Annot\n  /Subtype /Widget\n  /Rect [0 0 0 0]\n /TU (Digital signature field (non-interactive))\n /StructParent 999999\n  /P 4 0 R\n  /F 132\n  /FT /Sig\n  /T (Signature 1)\n  /V 13 0 R\n>>\n"
 
 	visual_signature, err := context.createVisualSignature(false, 1, [4]float64{0, 0, 0, 0})
 	if err != nil {
