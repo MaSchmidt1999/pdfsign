@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
+	"github.com/MaSchmidt1999/pdfsign/revocation"
 	"github.com/digitorus/pdf"
-	"github.com/digitorus/pdfsign/revocation"
 	"github.com/digitorus/pkcs7"
 
 	"github.com/mattetti/filebuffer"

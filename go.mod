@@ -1,4 +1,5 @@
-module github.com/digitorus/pdfsign
+module github.com/MaSchmidt1999/pdfsign
+
 
 go 1.22
 

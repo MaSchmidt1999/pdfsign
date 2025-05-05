@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/digitorus/pdfsign/revocation"
+	"github.com/MaSchmidt1999/pdfsign/revocation"
 	"golang.org/x/crypto/ocsp"
 )
 

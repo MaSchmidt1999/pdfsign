@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/MaSchmidt1999/pdfsign/revocation"
+	"github.com/MaSchmidt1999/pdfsign/verify"
 	"github.com/digitorus/pdf"
-	"github.com/digitorus/pdfsign/revocation"
-	"github.com/digitorus/pdfsign/verify"
 	"github.com/mattetti/filebuffer"
 )
 
