@@ -61,7 +61,8 @@ func (context *SignContext) createVisualSignature(visible bool, pageNumber uint3
 
 		// Set struct parent to 999999 to mark it as a non-structural element.
 		// So that it won't be read by screen readers. And the PAC tool will be satisfied.
-		visual_signature.WriteString(" /TU (Digital signature field (non-interactive))\n /StructParent 999999\n")
+		//visual_signature.WriteString(" /TU (Digital signature field (non-interactive))\n /StructParent 999999\n")
+		visual_signature.WriteString(" /TU (Digital signature field (non-interactive))\n")
 	}
 
 	// Retrieve the root object from the PDF trailer.
