@@ -63,6 +63,7 @@ func (context *SignContext) createVisualSignature(visible bool, pageNumber uint3
 		// So that it won't be read by screen readers. And the PAC tool will be satisfied.
 		//visual_signature.WriteString(" /TU (Digital signature field (non-interactive))\n /StructParent 999999\n")
 		visual_signature.WriteString(" /TU (Digital signature field (non-interactive))\n")
+		visual_signature.WriteString(" /Alt (This is a digital signature ensuring document integrity and authenticity)\n")
 	}
 
 	// Retrieve the root object from the PDF trailer.
